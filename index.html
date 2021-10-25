@@ -1,0 +1,375 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Email Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 100%;
+    }
+
+    [style*="Ubuntu"] {
+      font-family: 'Ubuntu', arial, sans-serif !important;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100% !important;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    table {
+      position: relative;
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    .header__img_one {
+      position: absolute;
+      right: 320px;
+      top: 35px;
+    }
+
+    .header__img_two {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      z-index: 1;
+    }
+
+    .text_one {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 46px;
+      color: #FFFFFF;
+      padding-left: 80px;
+    }
+
+    .text-slogan {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      padding-left: 80px;
+    }
+
+    .name_firm {
+      background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(108, 52, 224, 1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      z-index: 3;
+    }
+
+    .push {
+      background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(255, 106, 191, 1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .btn {
+      width: 198px;
+      height: 49px;
+      background: linear-gradient(92.29deg, #6C34E0 0%, #FF6ABF 100%);
+      margin-left: 80px;
+    }
+
+    .btn-text {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .img_one {
+      margin-top: 50px;
+      margin-bottom: 80px;
+    }
+
+    .img_two {
+      position: absolute;
+      top: 30px;
+      right: 0px;
+      z-index: 1;
+    }
+
+    .img_circle {
+      position: absolute;
+      top: 360px;
+    }
+
+    .text-two {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+
+    .push_email {
+      background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(255, 106, 191, 1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .text-three {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      color: #FFFFFF;
+      padding-left: 80px;
+    }
+
+    .text-four {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      color: #707070;
+      padding-left: 80px;
+    }
+
+    .firm {
+      background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(255, 106, 191, 1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    @media(max-width: 850px) {
+      .table_600 {
+        width: 600px;
+      }
+
+      .header__img_one {
+        position: absolute;
+        right: 210px;
+        top: 35px;
+      }
+
+      .text_one {
+        padding-left: 30px;
+      }
+
+      .name_firm {
+        position: relative;
+        z-index: 3;
+      }
+
+      .text-slogan {
+        padding-left: 30px;
+      }
+
+      .push {
+        position: relative;
+        z-index: 3;
+      }
+
+      .btn {
+        margin-left: 30px;
+      }
+
+      .text-three {
+        padding-left: 45px;
+      }
+
+      .text-four {
+        padding-left: 45px;
+      }
+    }
+
+    @media(max-width: 650px) {
+      .table_300 {
+        width: 300px;
+      }
+
+      .header__img_three {
+        width: 150px;
+      }
+
+      .header__img_one {
+        top: 30px;
+        right: 60px;
+        width: 100px;
+      }
+
+      .header__img_two {
+        width: 200px;
+      }
+
+      .text_one {
+        padding-left: 10px;
+      }
+
+      .name_firm {
+        position: relative;
+        z-index: 3;
+      }
+
+      .text-slogan {
+        padding-left: 10px;
+      }
+
+      .push {
+        position: relative;
+        z-index: 3;
+      }
+
+      .btn {
+        margin-left: 10px;
+      }
+
+      .img_circle {
+        top: 203px;
+      }
+
+      .text-two {
+        font-size: 10px;
+      }
+
+      .push_email {
+        font-size: 10px;
+      }
+
+      .text-three {
+        font-size: 10px;
+        padding-left: 10px;
+      }
+
+      .text-four {
+        padding-left: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body style="margin: 0; padding: 0px;">
+  <table cellpadding="0" cellspasing="0" width="100%" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <table class="table_600 table_300" cellpadding="0" cellspasing="0" bgcolor="#121212" width="800px"
+          align="center">
+          <tr>
+            <td>
+              <img class="header__img_three" src="images/header-left.png" alt="header-left">
+            </td>
+            <td>
+              <img class="header__img_one" src="images/logo.svg" alt="logo">
+            </td>
+            <td>
+              <img class="header__img_two" src="images/header-right.png" alt="header-right">
+            </td>
+          </tr>
+        </table>
+        <table class="table_600 table_300" cellpadding="0" cellspasing="0" bgcolor="#121212" width="800px"
+          align="center">
+          <tr>
+            <td>
+              <p class="text_one">
+                Привет! 🚀
+              </p>
+              <p class="text-slogan">
+                Мы получили ваш запрос на подписку и совсем скоро начнём присылать </br>
+                полезные материалы о digital-маркетинге. Тренды, статьи, инсайты, идеи, </br>
+                исследования, кейсы — всё это ждёт вас </br>
+                в новых рассылках от <a class="name_firm" href="#">WIM.Agency</a>.
+              </p>
+              <p class="text-slogan">
+                Первый такой материал — Трендбук от WIM — уже на пути к вам. Чтобы </br>
+                прочитать его, нужно сделать лишь один шаг — <a class="push" href="#">подтвердить почту</a>.
+              </p>
+              <button class="btn" type="submit">
+                <p class="btn-text">Подтвердить</p>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="img_two" src="images/circle.png" alt="">
+            </td>
+          </tr>
+        </table>
+        <table class="table_600 table_300" cellpadding="0" cellspasing="0" bgcolor="#121212" width="800px"
+          align="center">
+          <tr>
+            <td align="center">
+              <img class="img_one" src="images/Group 491.png" alt="Frame to firm">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="img_circle" src="images/footer_circle.png" alt="footer-top">
+            </td>
+          </tr>
+        </table>
+        <table class="table_600 table_300" cellpadding="0" cellspasing="0" bgcolor="#121212" width="800px"
+          align="center">
+          <tr>
+            <td width="150" class="text-two" bgcolor="#000000" align="center">
+              <p>+7 (‌4‌9‌9) 1‌3‌0-4‌0-7‌9</p>
+            </td>
+            <td width="50" bgcolor="#000000">
+              <a class="push_email" href="#">hi@wim.agency</a>
+            </td>
+            <td width="50" bgcolor="#000000">
+              <a href="#"><img src="images/Group 478.png" alt="Facebok"></a>
+            </td>
+            <td width="50" bgcolor="#000000">
+              <a href="#"><img src="images/Group 477.png" alt="Twitter"></a>
+            </td>
+            <td width="50" bgcolor="#000000">
+              <a href="#"><img src="images/Group 476.png" alt="Instagram"></a>
+            </td>
+          </tr>
+        </table>
+        <table class="table_600 table_300" cellpadding="0" cellspasing="0" bgcolor="#121212" width="800px"
+          align="center">
+          <tr>
+            <td bgcolor="#000000">
+              <p class="text-three">© 20‌13‌–‌2021 W‌I‌M‌‌.‌‌Age‌ncy </br>
+                Москва, Нижний Сусальный переулок, дом 5, стр. 4А
+              </p>
+              <p class="text-four">
+                Вы получили это сообщение, так как оставили заявку на сайте <a class="firm" href="#">wim‌.‌agency</a>
+                </br>
+                Если хотите отписаться от всех рассылок, перейдите по <a class="firm" href="#">этой ссылке</a>.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>

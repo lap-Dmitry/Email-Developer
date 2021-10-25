@@ -1,0 +1,90 @@
+<mjml>
+    <mj-head>
+        <mj-title>Email developer</mj-title>
+        <mj-preview>Email developer</mj-preview>
+        <mj-style>
+            .name_firm {
+                background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(108, 52, 224, 1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .push {
+                background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(255, 106, 191, 1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .push_email {
+                background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(255, 106, 191, 1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .firm {
+                background: linear-gradient(to right, rgba(108, 52, 224, 1), rgba(255, 106, 191, 1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="800px" background-color="#E5E5E5">
+    <mj-section background-color="#121212">
+        <mj-column>
+        <mj-image width="130px" src="images/logo.svg" alt="logo firm" />            
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#121212">
+        <mj-column>
+        <mj-text font-family="Ubuntu" font-style="normal" font-weight="bold" font-size="34px" line-height="46px" color="#FFFFFF">
+            Привет! 🚀
+        </mj-text>            
+        </mj-column>        
+    </mj-section>
+    <mj-section background-color="#121212">
+        <mj-column>
+        <mj-text font-family="Ubuntu" font-style="normal" font-weight="normal" font-size="16px" line-height="24px" color="#FFFFFF">
+            Мы получили ваш запрос на подписку и совсем скоро начнём присылать полезные материалы о digital-маркетинге. Тренды, статьи, инсайты, идеи, исследования, кейсы — всё это ждёт вас в новых рассылках от <a class="name_firm" href="#">WIM.Agency</a>. 
+        </mj-text>
+        <mj-text font-family="Ubuntu" font-style="normal" font-weight="normal" font-size="16px" line-height="24px" color="#FFFFFF">
+            Первый такой материал — Трендбук от WIM — уже на пути к вам. Чтобы прочитать его, нужно сделать лишь один шаг — <a class="push" href="#">подтвердить почту</a>.
+        </mj-text>         
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#121212">
+        <mj-column>
+            <mj-button width="198px" height="49px" align="left">
+            <mj-text font-family="Ubuntu" font-style="normal" font-weight="500" font-size="16px" line-height="25px" text-align="center" letter-spacing="0.05em" text-transform="uppercase" color="#FFFFFF">
+                Подтвердить
+            </mj-text> 
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#121212">
+        <mj-column>
+        <mj-image src="images/Frame 12 1.png" alt="Wim firm" />            
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000">
+        <mj-column>
+                 <mj-text font-family="Ubuntu" font-style="normal" font-weight="normal" font-size="16px" line-height="24px" color="#FFFFFF">
+                     +7 (‌4‌9‌9) 1‌3‌0-4‌0-7‌9
+                 </mj-text>                
+        </mj-column>
+        <mj-column>
+        <mj-text font-family="Ubuntu" font-style="normal" font-weight="normal" font-size="16px" line-height="24px" color="#FFFFFF">
+                   <a class="push_email" href="#">hi@wim.agency</a>
+                 </mj-text>            
+        </mj-column>        
+    </mj-section> 
+    <mj-section background-color="#000000">
+        <mj-column>
+        <mj-text font-family="Ubuntu" font-style="normal" font-weight="normal" font-size="12px" line-height="20px" color="#FFFFFF">
+            © 20‌13‌–‌2021 W‌I‌M‌‌.‌‌Age‌ncy </br>
+Москва, Нижний Сусальный переулок, дом 5, стр. 4А
+        </mj-text>
+        <mj-text font-family="Ubuntu" font-style="normal" font-weight="normal" font-size="12px" line-height="20px" color="#FFFFFF">
+            Вы получили это сообщение, так как оставили заявку на сайте <a class="firm" href="#">wim‌.‌agency</a> </br>
+Если хотите отписаться от всех рассылок, перейдите по <a class="firm" href="#">этой ссылке</a> .
+        </mj-text>            
+        </mj-column>
+    </mj-section>
+    </mj-body>
+</mjml>
